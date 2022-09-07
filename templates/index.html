@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<HTML lang="pt-BR">
+    <HEAD>
+        <meta charset="UTF-8"/>
+        <title>{{tituloIndex}}</title>
+    </HEAD>
+    <BODY style="color: white; background-color:black">
+        <nav id="camposNav" style="text-align: center;">
+            <form action="/" method="POST">
+                <label id="labelNome" nome="labelNome">Nome:</label>
+                <input type="text" id="textNome" name="inputNome" placeholder="Insira um nome"><br>
+
+                <label id="labelTelefone" nome="labelTelefone">Telefone:</label>
+                <input type="text" id="textTelefone" name="inputTelefone" placeholder="Insira um nome"><br>
+
+                <label id="labelEndereco" nome="labelEndereco">Endereço:</label>
+                <input type="text" id="textEndereco" name="inputEndereco" placeholder="Insira um nome"><br>
+
+                <label id="labelDataNascimento" nome="labelDataNascimento">Data de Nascimento:</label><br>
+                <input type="date" id="textDataNascimento" name="inputDataNascimento" placeholder="Insira um nome">
+                
+                <button type="submit">inserir</button>
+            </form>
+
+            <br><br><br>
+
+            <label id="resultadoInsercao" name="resultadoInsercao">{{resultado}}</label>
+        </nav>
+    </BODY>
+</HTML>
