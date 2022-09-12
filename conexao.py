@@ -6,7 +6,7 @@ class Conexao:
 
     def conectar(self):
         try:
-            db_connection = mysql.connector.connect(host="localhost", user="root", password="", database="bancoFlask")
+            db_connection = mysql.connector.connect(host="127.0.0.1", user="root", password="", database="bancoFlask") #localhost
             return db_connection
         except Exception as error:
             print(error)
